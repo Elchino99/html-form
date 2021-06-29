@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #03faa2;
+    background-color: #616864;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+a {
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkmagenta;
+}
+/********************************************************************************************************/
+
+
+/********************************************Règles générales********************************************/
+
+main {
+    margin-left: 20px;
+}
+
+button {
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    padding: .5em 5em;
+    transition: box-shadow .5s ease-in-out;
+    transition: font-weight .5s ease-in-out;
+    transition: background-color .9s ease-in-out;
+}
+
+
+
+button:hover {
+    background-color: #d503fa;
+    font-weight: 1000;
+    box-shadow: 0 8px 16px rgba(0,0,0,.3);
+}
+
+input, button {
+    font-family: inherit;
+    font-size: inherit;
+}
+/********************************************Header / En-tête********************************************/
+
+
+/********************************************Main / Principal********************************************/
+form h1 {
+    font-weight: 1000;
+    border-bottom: #03faa2 solid 10px;
+}
+
+form > ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+form > ul > li{
+    max-width: 500px;
+    margin-bottom: 1em;
+
+}
+
+form label {
+    display: block;
+    margin-bottom: .2em;
+
+    cursor: pointer;
+}
+
+
+
+
+/************************************** ***Footer / Pied-page*******************************************/
